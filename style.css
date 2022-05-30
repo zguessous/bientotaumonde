@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.intro {
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+.logo {
+
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+a {
+    font-size: 22px;
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+}
+.desc{
+    display: flex;
+    background-color: lightsteelblue;
+    padding: 55px 150px 55px;
+    font-family: 'Mali', cursive, sans-serif;
+}
+.desc-item {
+    flex: 1;
+    height: 300px;
+}
+.desc-item img{
+    height: 100%;
+}
+.products {
+    display: flex;
+}
+.reviews {
+    display: flex;
+}
+.cta {
+    display: flex;
+}
