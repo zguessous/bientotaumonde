@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 150px;
+    padding: 20px 120px;
 }
 .logo {
 
@@ -22,24 +22,31 @@ ul {
     padding: 0;
 }
 a {
-    font-size: 22px;
+    font-size: 20px;
     color: black;
     padding: 8px;
     text-decoration: none;
 }
 .desc{
-    display: flex;
-    background-color: lightsteelblue;
-    padding: 55px 150px 55px;
+    /*background-color: lightsteelblue;*/
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), 
+    rgba(255, 255, 255, 0.5)), url("images/bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 120px;
     font-family: 'Mali', cursive, sans-serif;
 }
-.desc-item {
-    flex: 1;
-    height: 300px;
+
+.btn-info{
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-family: 'Mali', cursive, sans-serif;;
 }
-.desc-item img{
-    height: 100%;
-}
+.btn-info:hover {background: lightsteelblue;}
 .products {
     display: flex;
 }
