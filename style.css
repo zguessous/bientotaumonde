@@ -3,6 +3,8 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 .intro {
+    display: flex;
+    flex-direction: column;
 }
 .header {
     display: flex;
@@ -11,9 +13,12 @@ body {
     padding: 20px 120px;
 }
 .logo {
-
+    background-image: none;
+    border-radius: 50%;
+    padding: 5px 5px;
+    border: 2px solid black;
 }
-ul {
+.links ul {
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -21,7 +26,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-a {
+.links a {
     font-size: 20px;
     color: black;
     padding: 8px;
@@ -46,9 +51,31 @@ a {
     padding: 5px 10px;
     font-family: 'Mali', cursive, sans-serif;;
 }
-.btn-info:hover {background: lightsteelblue;}
+.btn-info:hover {
+    background: lightsteelblue;
+}
 .products {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prod-title{
+    font-family: 'Mali', cursive, sans-serif;
+}
+.prod-cards {
+    display: flex;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-box{
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
 }
 .reviews {
     display: flex;
