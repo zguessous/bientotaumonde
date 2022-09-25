@@ -58,6 +58,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 55px 0px;
 }
 .prod-title{
     font-family: 'Mali', cursive, sans-serif;
@@ -79,7 +80,22 @@ body {
 }
 .reviews {
     display: flex;
+    gap: 20px; 
+    align-items: center;
+    justify-content: center;
+    padding: 55px 0px;
+    background-color: #E5E7EB;
 }
+   
+.review {
+    /* do shadowed boxes*/
+    border: 2px solid black; 
+    width: 300px;
+    height: 200px;
+}
+.checked {
+    color: orange;
+  }
 .cta {
     display: flex;
 }
