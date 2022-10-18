@@ -69,7 +69,7 @@ h5 {font-size: 1.25rem;}
     font-family: 'Mali', cursive, sans-serif;;
 }
 .info-btn:hover {
-    background: rgb(192,225,241);
+    background: #CAEEF9;
 }
 .products {
     display: flex;
@@ -102,7 +102,7 @@ h5 {font-size: 1.25rem;}
     align-items: center;
     justify-content: center;
     padding: 55px 0px;
-    background-color: #E5E7EB;
+    background-color: #F1F3F9;
     font-family: 'Mali', cursive, sans-serif;
 }
    
@@ -114,15 +114,24 @@ h5 {font-size: 1.25rem;}
 }
 .checked {
     color: orange;
-  }
+}
+.cta {
+    padding: 55px 250px;
+}
 .cta-box {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 160px;
-    background-color: rgb(192,225,241);
-    margin: 55px 250px;
+    background-color: #CAEEF9;
     border-radius: 4px;
     padding: 30px 40px;
     font-family: 'Mali', cursive, sans-serif;
+}
+
+footer {
+    background-color: #FBCCD2;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 10px 0px 10px 0px;
 }
